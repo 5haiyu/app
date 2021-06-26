@@ -1,0 +1,1 @@
+(function (g, f) { var k = f.documentElement; function c () { var a = k.clientWidth / 3.75; k.style.fontSize = a + 'px' }f.body ? f.body.style.fontSize = '16px' : f.addEventListener('DOMContentLoaded', g); c(); g.addEventListener('resize', c); g.addEventListener('pageshow', function (a) { a.persisted && c() }) })(window, document)

@@ -1,0 +1,49 @@
+{
+  "name": "ishop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build:test": "vue-cli-service build --mode test --dest dist/test",
+    "build:quasi": "vue-cli-service build --mode quasi --dest dist/quasi",
+    "build:prod": "vue-cli-service build --mode prod --dest dist/app"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bignumber.js": "^9.0.0",
+    "core-js": "^3.6.4",
+    "jimp": "^0.16.1",
+    "js-md5": "^0.7.3",
+    "jsqr": "^1.4.0",
+    "vant": "^2.11.1",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-standard": "^5.1.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-import": "^1.8.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.12.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^8.0.2",
+    "svg-sprite-loader": "^4.2.1",
+    "vue-cli-plugin-vant": "~1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
